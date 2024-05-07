@@ -230,7 +230,7 @@ function AboutWindow() {
           <p>&nbsp;&nbsp;&nbsp;&nbsp;skate(); </p>
           <p>&nbsp;&nbsp;&nbsp;&nbsp;badminton(); </p>
           <p>&nbsp;&nbsp;&nbsp;&nbsp;cook(); </p>
-          <p>&nbsp;&nbsp;&nbsp;&nbsp;snowbaord(); </p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;snowboard(); </p>
           <p>&nbsp;&nbsp;&nbsp;&nbsp;video_games(); </p>
           <p>&#125;</p>
           
