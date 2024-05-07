@@ -1,0 +1,180 @@
+.desktop {
+  background-image: url('b.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px; /* Adjust width as needed */
+  height: auto;
+}
+
+.icons-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px; /* Adjust the width as needed */
+  height: 100%; /* Adjust the height as needed */
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px; /* Adjust this value as needed */
+}
+
+.icon-wrapper {
+  margin-bottom: 10px; /* Add margin between icons */
+}
+
+.icon {
+  text-align: center;
+}
+
+
+
+
+.window {
+  position: absolute;
+  width: 400px;
+  max-width: calc(100% - 20px);
+  max-height: calc(100% - 20px);
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.title-bar {
+  height: 30px;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+  color: #ffffff;
+}
+
+.window-body {
+  padding: 10px;
+}
+
+.icon {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon img {
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.icon-text {
+  color: #ffffff;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.icon {
+  text-align: center;
+}
+
+
+.contact-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contact-icons a {
+  display: block;
+}
+
+.contact-icons img {
+  width: 40px; /* Adjust the size as needed */
+  height: 40px; /* Adjust the size as needed */
+  margin: 0 10px; /* Adjust the margin as needed */
+}
+
+.awards-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.awards-list li {
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #f0f0f0;
+  
+}
+
+.awards-list .award::before {
+  content: '🏆'; /* Trophy icon for awards */
+  margin-right: 8px;
+}
+
+.awards-list .certification::before {
+  content: '📜'; /* Scroll icon for certifications */
+  margin-right: 8px;
+}
+
+.language-columns {
+  display: flex;
+}
+
+.language-column {
+  flex: 1;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  width: auto;
+  height: 200px; /* Adjust height as needed */
+  margin-right: 20px; /* Adjust spacing */
+}
+
+.text-content {
+  flex: 1;
+}
+
+.text-content p {
+  margin: 5px 0; /* Adjust the margin as needed */
+}
+
+.projects-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projects-list li {
+  margin-bottom: 20px;
+}
+
+.projects-list li strong {
+  display: block;
+  margin-bottom: 5px;
+}
