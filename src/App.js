@@ -212,7 +212,7 @@ function ProjectsWindow() {
 function ResumeWindow() {
   return (
     <div>
-      <h2> <a href="https://drive.google.com/file/d/1obMJ0c8qAYHl8t4iTqUuO0FfdBowpD_q/view?usp=sharing" target="_blank" rel="noopener noreferrer">My Resume</a></h2>
+      <h2> <a href="https://docs.google.com/document/d/1Sk0XAkIQY7t1kh-wAv0oSVJAl0PUQyT__11KSaZeUTI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">My Resume</a></h2>
       <p>Click above to download...</p>
     </div>
   );
