@@ -123,28 +123,6 @@ function Window({ title, content, position, onClose, setWindows, windows }) {
   );
 }
 
-function ContactsWindow() {
-  return (
-    <div>
-      <h2>Get In Touch</h2>
-      <div className="contact-icons">
-        <a href="https://www.linkedin.com/in/harshul-jain-245244217/" target="_blank" rel="noopener noreferrer">
-          <img src={linkedinIcon} alt="LinkedIn" />
-        </a>
-        <a href="https://github.com/jainharshul" target="_blank" rel="noopener noreferrer">
-          <img src={githubIcon} alt="GitHub" />
-        </a>
-        <a href="mailto:harshuljainwork@gmail.com">
-          <img src={emailIcon} alt="Email" />
-        </a>
-        <a href="https://discord.gg/HndkWBJhnH" target="_blank" rel="noopener noreferrer">
-          <img src={discordIcon} alt="Discord" />
-        </a>
-      </div>
-    </div>
-  );
-}
-
 function ExperienceWindow() {
   return (
     <div>
@@ -212,6 +190,93 @@ function ExperienceWindow() {
           • Collaborated with international teams to organize 3+ global virtual conferences with 200+ attendees<br />
           • Built responsive web pages and technical datasheets using HTML, CSS, and C++<br />
           • Integrated AI-powered chat support, reducing client response time by 40%
+        </li>
+
+      </ul>
+    </div>
+  );
+}
+
+function ContactsWindow() {
+  return (
+    <div>
+      <h2>Get In Touch</h2>
+      <div className="contact-icons">
+        <a href="https://www.linkedin.com/in/harshul-jain-245244217/" target="_blank" rel="noopener noreferrer">
+          <img src={linkedinIcon} alt="LinkedIn" />
+        </a>
+        <a href="https://github.com/jainharshul" target="_blank" rel="noopener noreferrer">
+          <img src={githubIcon} alt="GitHub" />
+        </a>
+        <a href="mailto:harshuljainwork@gmail.com">
+          <img src={emailIcon} alt="Email" />
+        </a>
+        <a href="https://discord.gg/HndkWBJhnH" target="_blank" rel="noopener noreferrer">
+          <img src={discordIcon} alt="Discord" />
+        </a>
+      </div>
+    </div>
+  );
+}
+
+function ProjectsWindow() {
+  return (
+    <div>
+      <h2>Projects</h2>
+      <ul className="projects-list">
+
+        <li>
+          <strong>
+            <a href="https://github.com/jainharshul/Student-Adaptability-Level-Artifical-Intelligence-/tree/main" target="_blank" rel="noreferrer">
+              Student Adaptability AI
+            </a>
+          </strong><br />
+          • Built ML models (Random Forests, Logistic Regression, Decision Trees) to classify student adaptability levels<br />
+          • Applied feature engineering, preprocessing, and evaluation using Python and Scikit-Learn<br />
+          • Performed exploratory data analysis and visualization to identify key predictors
+        </li>
+
+        <li>
+          <strong>
+            <a href="https://github.com/laelaolsen/cse515group2/tree/main" target="_blank" rel="noreferrer">
+              Multimedia Retrieval & Representation
+            </a>
+          </strong><br />
+          • Engineered video feature extraction pipelines using R3D-18 CNNs and spatiotemporal descriptors<br />
+          • Applied PCA, SVD, LDA, and k-means to uncover latent semantics and reduce dimensionality<br />
+          • Built similarity search and retrieval systems using k-NN, SVMs, and LSH
+        </li>
+
+        <li>
+          <strong>
+            <a href="https://docs.google.com/document/d/1TRPCnA44xXVnq5hjqcSXIU9D60EFUwxfojjGSStj-YI/edit?tab=t.0#heading=h.yw81vphheox2" target="_blank" rel="noreferrer">
+              Census Income Data Visualization & Analysis
+            </a>
+          </strong><br />
+          • Built a data visualization pipeline on U.S. Census data to analyze income classification (&gt;50K vs ≤50K)<br />
+          • Applied data cleaning, feature engineering, and binning to transform raw demographic data<br />
+          • Created interactive visualizations to support data-driven decision making
+        </li>
+
+        <li>
+          <strong>
+            <a href="https://docs.google.com/document/d/1Dj4E2mbuhMcl0h6rNN3dwZvDTkUNlmmhQUQViFp3qp0/edit?usp=sharing" target="_blank" rel="noreferrer">
+              OOTD — Full-Stack Fashion App
+            </a>
+          </strong><br />
+          • Built a cross-platform app using SvelteKit, Node.js, Firebase, and Python<br />
+          • Implemented secure authentication, cloud database design, and privacy-aware user profiles<br />
+          • Led full product lifecycle from Figma design to deployment
+        </li>
+
+        <li>
+          <strong>
+            <a href="https://github.com/jainharshul/SLAKR" target="_blank" rel="noreferrer">
+              SLAKR — iOS Task Manager
+            </a>
+          </strong><br />
+          • Developed a SwiftUI-based task management app with persistent storage<br />
+          • Implemented task creation, deletion, and state management
         </li>
 
       </ul>
