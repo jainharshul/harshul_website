@@ -191,64 +191,73 @@ function ContactsWindow() {
   );
 }
 
-function ProjectsWindow() {
+function ExperienceWindow() {
   return (
     <div>
-      <h2>Projects</h2>
-      <ul className="projects-list">
+      <h2>Work Experience</h2>
+      <ul className="experience-list">
 
         <li>
           <strong>
-            <a href="https://github.com/jainharshul/Student-Adaptability-Level-Artifical-Intelligence-/tree/main" target="_blank" rel="noreferrer">
-              Student Adaptability AI
+            <a
+              href="https://vertexplus.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Vertex Plus Ltd — Python AI Intern
             </a>
           </strong><br />
-          • Built ML models (Random Forests, Logistic Regression, Decision Trees) to classify student adaptability levels<br />
-          • Applied feature engineering, preprocessing, and evaluation using Python and Scikit-Learn<br />
-          • Performed exploratory data analysis and visualization to identify key predictors
+          <span className="date">Jun 2023 – Oct 2023</span><br />
+          • Built and deployed automated web-scraping pipelines processing data from 50+ sources, reducing manual collection time by 80%<br />
+          • Developed full-stack data ingestion and visualization tools using Python, Django, Flask, and BeautifulSoup4<br />
+          • Optimized AI preprocessing pipelines in Python and MATLAB to handle 1M+ records, improving training efficiency by 30%
         </li>
 
         <li>
           <strong>
-            <a href="https://github.com/laelaolsen/cse515group2/tree/main" target="_blank" rel="noreferrer">
-              Multimedia Retrieval & Representation
+            <a
+              href="https://www.fullerton.edu"
+              target="_blank"
+              rel="noreferrer"
+            >
+              CSUF — AI & Data Science Intern
             </a>
           </strong><br />
-          • Engineered video feature extraction pipelines using R3D-18 CNNs and spatiotemporal descriptors<br />
-          • Applied PCA, SVD, LDA, and k-means to uncover latent semantics and reduce dimensionality<br />
-          • Built similarity search and retrieval systems using k-NN, SVMs, and LSH
+          <span className="date">Jun 2022 – Jul 2022</span><br />
+          • Designed a Student Adaptability prediction model achieving 82% accuracy using machine learning techniques<br />
+          • Built end-to-end ML pipelines with feature engineering, statistical analysis, and model evaluation<br />
+          • Presented data-driven insights to faculty, influencing curriculum planning for 500+ students
         </li>
 
         <li>
           <strong>
-            <a href="https://docs.google.com/document/d/1TRPCnA44xXVnq5hjqcSXIU9D60EFUwxfojjGSStj-YI/edit?tab=t.0#heading=h.yw81vphheox2" target="_blank" rel="noreferrer">
-              Census Income Data Visualization & Analysis
+            <a
+              href="https://www.fullerton.edu"
+              target="_blank"
+              rel="noreferrer"
+            >
+              CSUF — Engineering & Computer Science Inter-Club Council
             </a>
           </strong><br />
-          • Built a data visualization pipeline on U.S. Census data to analyze income classification (&gt;50K vs ≤50K)<br />
-          • Applied data cleaning, feature engineering, and binning to transform raw demographic data<br />
-          • Created interactive visualizations to support data-driven decision making
+          <span className="date">Aug 2022 – Apr 2023</span><br />
+          • Coordinated 15+ Computer Science and Engineering clubs and organized 10+ technical workshops<br />
+          • Led hands-on Python workshops for 100+ students, increasing attendance by 25%
         </li>
 
         <li>
           <strong>
-            <a href="https://docs.google.com/document/d/1Dj4E2mbuhMcl0h6rNN3dwZvDTkUNlmmhQUQViFp3qp0/edit?usp=sharing" target="_blank" rel="noreferrer">
-              OOTD — Full-Stack Fashion App
+            <a
+              href="https://gaotek.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GAO Tech — Virtual Technology Intern
             </a>
           </strong><br />
-          • Built a cross-platform app using SvelteKit, Node.js, Firebase, and Python<br />
-          • Implemented secure authentication, cloud database design, and privacy-aware user profiles<br />
-          • Led full product lifecycle from Figma design to deployment
-        </li>
-
-        <li>
-          <strong>
-            <a href="https://github.com/jainharshul/SLAKR" target="_blank" rel="noreferrer">
-              SLAKR — iOS Task Manager
-            </a>
-          </strong><br />
-          • Developed a SwiftUI-based task management app with persistent storage<br />
-          • Implemented task creation, deletion, and state management
+          <span className="date">Aug 2021 – Dec 2021</span><br />
+          • Collaborated with international teams to organize 3+ global virtual conferences with 200+ attendees<br />
+          • Built responsive web pages and technical datasheets using HTML, CSS, and C++<br />
+          • Integrated AI-powered chat support, reducing client response time by 40%
         </li>
 
       </ul>
@@ -380,11 +389,10 @@ function LanguageWindow() {
 
   return (
     <div>
-      <h2>Skills</h2>
 
       {Object.entries(skills).map(([category, items]) => (
         <div key={category} className="skills-category">
-          <h4>{category}</h4>
+          <h5>{category}</h5>
           <ul className="skills-list">
             {items.map((skill) => (
               <li key={skill}>{skill}</li>
