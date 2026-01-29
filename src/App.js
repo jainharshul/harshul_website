@@ -411,7 +411,7 @@ function LanguageWindow() {
 
       {Object.entries(skills).map(([category, items]) => (
         <div key={category} className="skills-category">
-          <h3>{category}</h3>
+          <h4>{category}</h4>
           <ul className="skills-list">
             {items.map((skill) => (
               <li key={skill}>{skill}</li>
