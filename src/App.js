@@ -123,52 +123,6 @@ function Window({ title, content, position, onClose, setWindows, windows }) {
   );
 }
 
-function ExperienceWindow() {
-  return (
-    <div>
-      <h2>Work Experience</h2>
-      <ul className="experience-list">
-        <li>
-          <strong>Bachelors in Computer Science at CSUF</strong>
-        </li>
-        <li>
-          <strong>MCS w/ Concentration in Big Data Systems</strong>
-        </li>
-        <li>
-  <strong>Vertex Plus Ltd — Python AI Intern</strong><br />
-  Jun 2023 – Oct 2023<br />
-  • Built and deployed automated web-scraping pipelines processing data from 50+ sources, reducing manual data collection time by 80%<br />
-  • Developed full-stack data ingestion and visualization tools using Python, Django, Flask, and BeautifulSoup4<br />
-  • Optimized AI preprocessing scripts in Python and MATLAB to handle 1M+ records, improving model training efficiency by 30%
-</li>
-
-<li>
-  <strong>CSUF — AI & Data Science Intern</strong><br />
-  Jun 2022 – Jul 2022<br />
-  • Designed a Student Adaptability prediction model achieving 82% accuracy using Python and machine learning techniques<br />
-  • Built end-to-end ML pipelines with feature engineering, statistical analysis, and model evaluation<br />
-  • Presented insights to faculty, influencing curriculum planning for 500+ students
-</li>
-
-<li>
-  <strong>CSUF — Engineering & Computer Science Inter-Club Council</strong><br />
-  Aug 2022 – Apr 2023<br />
-  • Coordinated 15+ CS and Engineering clubs and organized 10+ technical workshops<br />
-  • Taught hands-on Python workshops to 100+ students, increasing attendance by 25%
-</li>
-
-<li>
-  <strong>GAO Tech — Virtual Technology Intern</strong><br />
-  Aug 2021 – Dec 2021<br />
-  • Collaborated with international teams to organize 3+ global virtual conferences with 200+ attendees<br />
-  • Built responsive web pages and technical datasheets using HTML, CSS, and C++
-  • Integrated AI-powered chat support, reducing client response time by 40%
-</li>
-      </ul>
-    </div>
-  );
-}
-
 function ContactsWindow() {
   return (
     <div>
