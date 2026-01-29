@@ -68,11 +68,11 @@ function App() {
           </div>
           <div className="icon-wrapper" onClick={() => openWindow('Awards & Certs.', <AwardWindow />)}>
             <img src={icon6} alt="Icon6" />
-            <div className="icon-text">Awards</div>
+            <div className="icon-text">Publications/Awards</div>
           </div>
           <div className="icon-wrapper" onClick={() => openWindow('Languages', <LanguageWindow />)}>
             <img src={icon7} alt="Icon7" />
-            <div className="icon-text">Languages</div>
+            <div className="icon-text">Skills</div>
           </div>
         </div>
       </div>
@@ -162,6 +162,7 @@ function ExperienceWindow() {
   Aug 2021 – Dec 2021<br />
   • Collaborated with international teams to organize 3+ global virtual conferences with 200+ attendees<br />
   • Built responsive web pages and technical datasheets using HTML, CSS, and C++
+  • Integrated AI-powered chat support, reducing client response time by 40%
 </li>
       </ul>
     </div>
@@ -193,24 +194,63 @@ function ContactsWindow() {
 function ProjectsWindow() {
   return (
     <div>
-      <h2>My Projects</h2>
+      <h2>Projects</h2>
       <ul className="projects-list">
+
         <li>
-          <strong>Irvine Tennis Badminton Shop Mockup</strong><br />
-          Developed a customer management application using Flask, a Python web framework, to create a user-friendly interface for submitting and managing customer details. Implemented features such as generating unique IDs, updating customer information, and marking completed customers. Demonstrated proficiency in full-stack web development, data storage, and backend programming techniques.
+          <strong>
+            <a href="https://github.com/jainharshul/Student-Adaptability-Level-Artifical-Intelligence-/tree/main" target="_blank" rel="noreferrer">
+              Student Adaptability AI
+            </a>
+          </strong><br />
+          • Built ML models (Random Forests, Logistic Regression, Decision Trees) to classify student adaptability levels<br />
+          • Applied feature engineering, preprocessing, and evaluation using Python and Scikit-Learn<br />
+          • Performed exploratory data analysis and visualization to identify key predictors
         </li>
+
         <li>
-          <strong>SLAKR</strong><br />
-          Created a task management app using SwiftUI to track and organize daily tasks. Implemented features such as adding tasks, deleting tasks, and clearing all tasks. Designed an intuitive user interface with a background image and interactive buttons. Showcased skills in iOS app development, UI/UX design, and data persistence.
+          <strong>
+            <a href="https://github.com/laelaolsen/cse515group2/tree/main" target="_blank" rel="noreferrer">
+              Multimedia Retrieval & Representation
+            </a>
+          </strong><br />
+          • Engineered video feature extraction pipelines using R3D-18 CNNs and spatiotemporal descriptors<br />
+          • Applied PCA, SVD, LDA, and k-means to uncover latent semantics and reduce dimensionality<br />
+          • Built similarity search and retrieval systems using k-NN, SVMs, and LSH
         </li>
+
         <li>
-          <strong>Student-Adaptability AI</strong><br />
-          Implemented an Artificial Intelligence model using Python to perform sentiment analysis on text data. Utilized Natural Language Processing techniques to analyze and classify text as positive, negative, or neutral. Preprocessed the data by tokenizing, removing stop words, and applying feature extraction. Trained a machine learning model using the processed data to accurately classify sentiment. Demonstrated proficiency in NLP, machine learning, and data preprocessing techniques.
+          <strong>
+            <a href="https://docs.google.com/document/d/1TRPCnA44xXVnq5hjqcSXIU9D60EFUwxfojjGSStj-YI/edit?tab=t.0#heading=h.yw81vphheox2" target="_blank" rel="noreferrer">
+              Census Income Data Visualization & Analysis
+            </a>
+          </strong><br />
+          • Built a data visualization pipeline on U.S. Census data to analyze income classification (&gt;50K vs ≤50K)<br />
+          • Applied data cleaning, feature engineering, and binning to transform raw demographic data<br />
+          • Created interactive visualizations to support data-driven decision making
         </li>
+
         <li>
-          <strong>College Database</strong><br />
-          Developed a mock college database system using HTML and PHP. Created an index.html file for user interface, along with 4 PHP files for handling database queries. Implemented functionalities to retrieve and display information such as course sections, enrolled students, professors, and more. Demonstrated proficiency in HTML, PHP, and database management for creating a functional and interactive mock college database system, along with a student and professor access portal.
+          <strong>
+            <a href="https://docs.google.com/document/d/1Dj4E2mbuhMcl0h6rNN3dwZvDTkUNlmmhQUQViFp3qp0/edit?usp=sharing" target="_blank" rel="noreferrer">
+              OOTD — Full-Stack Fashion App
+            </a>
+          </strong><br />
+          • Built a cross-platform app using SvelteKit, Node.js, Firebase, and Python<br />
+          • Implemented secure authentication, cloud database design, and privacy-aware user profiles<br />
+          • Led full product lifecycle from Figma design to deployment
         </li>
+
+        <li>
+          <strong>
+            <a href="https://github.com/jainharshul/SLAKR" target="_blank" rel="noreferrer">
+              SLAKR — iOS Task Manager
+            </a>
+          </strong><br />
+          • Developed a SwiftUI-based task management app with persistent storage<br />
+          • Implemented task creation, deletion, and state management
+        </li>
+
       </ul>
     </div>
   );
@@ -250,56 +290,109 @@ function AboutWindow() {
 function AwardWindow() {
   return (
     <div>
-      <h2>Awards and Certifications</h2>
+      <h2>Publications & Awards</h2>
+
+      {/* Publications */}
+      <h3>Publications</h3>
+      <ul className="publications-list">
+
+        <li>
+          <a href="https://drive.google.com/file/d/1zEQxogzZ1kx8btkc9N6eehbShD2O0uuW/view?usp=sharing" target="_blank" rel="noreferrer">
+            Preserving Identity Privacy in Face Recognition Systems
+          </a>
+          <br />
+        </li>
+
+        <li>
+          <a href="https://drive.google.com/file/d/1mDnxqmUPupMFziq3Lux4igUKgqy0QhkE/view?usp=sharing" target="_blank" rel="noreferrer">
+            Phishing Education Platform
+          </a>
+          <br />
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/1T7sWKAmFFvFBsTDagEAn1DKkqrkwIkfa/view?usp=sharing" target="_blank" rel="noreferrer">
+            Security in the 5G/6G Transition Through Quantum Gateways
+          </a>
+          <br />
+        
+        </li>
+
+        <li>
+          <a href="https://drive.google.com/file/d/1575XDJqIvWGsV-E_NGg1lNzH8r4Gqyok/view?usp=sharing" target="_blank" rel="noreferrer">
+            PSA Levels in Advanced Prostate Cancer
+          </a>
+          <br />
+        </li>
+
+      </ul>
+
+      {/* Awards */}
+      <h3>Awards</h3>
       <ul className="awards-list">
-        <li className="award">Tuffy Hacks Hackathon Winner</li>
-        <li className="award">CP 1 - Precision Exams</li>
-        <li className="award">CP IB Java - Precision Exams</li>
-        <li className="certification">C++ Certification - Free Code Camp</li>
-        <li className="certification">Python Certification - Free Code Camp</li>
-        <li className="certification">HTML Certification - Free Code Camp</li>
+        <li>
+          <a href="https://devpost.com/software/slakr" target="_blank" rel="noreferrer">
+            Slakr - TuffyHacks 2022 Winner
+          </a>
+          <br />
+        </li>
       </ul>
     </div>
   );
 }
 
 function LanguageWindow() {
-  const languages = [
-    "Python",
-    "Java",
-    "C++",
-    "JavaScript",
-    "HTML",
-    "CSS",
-    "R-Studio/R",
-    "Swift/Swift UI",
-    "Flask",
-    "Fast-Api",
-    "SQL",
-    "FireBase",
-    
-
-  ];
-
-  const halfLength = Math.ceil(languages.length / 2);
-  const firstHalf = languages.slice(0, halfLength);
-  const secondHalf = languages.slice(halfLength);
+  const skills = {
+    "Programming Languages": [
+      "Python",
+      "Java",
+      "C++",
+      "JavaScript",
+      "SQL",
+      "R"
+    ],
+    "Frameworks & Libraries": [
+      "Flask",
+      "FastAPI",
+      "React",
+      "SwiftUI",
+      "AngularJS"
+    ],
+    "Data Science & AI": [
+      "Pandas",
+      "Scikit-Learn",
+      "Jupyter Notebook",
+      "Generative AI",
+      "OpenAI APIs",
+      "Agentic AI Systems"
+    ],
+    "Cloud & Data Platforms": [
+      "AWS",
+      "Azure Data Factory",
+      "Databricks",
+      "Snowflake",
+      "Firebase"
+    ],
+    "Web & Design": [
+      "HTML",
+      "CSS",
+      "Figma"
+    ]
+  };
 
   return (
     <div>
-      <h2>Languages</h2>
-      <div className="language-columns">
-        <ul className="language-column">
-          {firstHalf.map((language, index) => (
-            <li key={index}>{language}</li>
-          ))}
-        </ul>
-        <ul className="language-column">
-          {secondHalf.map((language, index) => (
-            <li key={index}>{language}</li>
-          ))}
-        </ul>
-      </div>
+      <h2>Skills</h2>
+
+      {Object.entries(skills).map(([category, items]) => (
+        <div key={category} className="skills-category">
+          <h3>{category}</h3>
+          <ul className="skills-list">
+            {items.map((skill) => (
+              <li key={skill}>{skill}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
     </div>
   );
 }
