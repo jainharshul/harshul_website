@@ -135,27 +135,34 @@ function ExperienceWindow() {
           <strong>MCS w/ Concentration in Big Data Systems</strong>
         </li>
         <li>
-          <strong>Vertex Plus Ltd: Python AI Intern</strong><br />
-          June 2023 - October 2023<br />
-          Developed Dynamic Web Scraping Algorithms for numerous projects<br />
-          Worked in Python and with data collection/display libraries: Django, BeautifulSoup4, Flask, Matlab
-        </li>
-        <li>
-          <strong>CSUF: Engineering and Computer Science Inter-Club Council</strong><br />
-          August 2022 - April 2023<br />
-          Coordinated many Computer-Science and Engineering Clubs within CSUF and held numerous events teaching small workshops about the functionality and usage of Python
-        </li>
-        <li>
-          <strong>CSUF: Data-Science/Artificial Intelligence Internship</strong><br />
-          June 2022 - July 2022<br />
-          Worked with Jupyter Notebook, Python, and Matlab. Created Student-Adaptability AI
-        </li>
-        <li>
-          <strong>GAO Tech / Virtual Internship</strong><br />
-          August 2021 - December 2021<br />
-          Engaged in a team to organize several virtual global conferences with offshore clients<br />
-          Aided in tech support, developing web pages and datasheets, worked intensively in HTML, CSS, C++ languages
-        </li>
+  <strong>Vertex Plus Ltd — Python AI Intern</strong><br />
+  Jun 2023 – Oct 2023<br />
+  • Built and deployed automated web-scraping pipelines processing data from 50+ sources, reducing manual data collection time by 80%<br />
+  • Developed full-stack data ingestion and visualization tools using Python, Django, Flask, and BeautifulSoup4<br />
+  • Optimized AI preprocessing scripts in Python and MATLAB to handle 1M+ records, improving model training efficiency by 30%
+</li>
+
+<li>
+  <strong>CSUF — AI & Data Science Intern</strong><br />
+  Jun 2022 – Jul 2022<br />
+  • Designed a Student Adaptability prediction model achieving 82% accuracy using Python and machine learning techniques<br />
+  • Built end-to-end ML pipelines with feature engineering, statistical analysis, and model evaluation<br />
+  • Presented insights to faculty, influencing curriculum planning for 500+ students
+</li>
+
+<li>
+  <strong>CSUF — Engineering & Computer Science Inter-Club Council</strong><br />
+  Aug 2022 – Apr 2023<br />
+  • Coordinated 15+ CS and Engineering clubs and organized 10+ technical workshops<br />
+  • Taught hands-on Python workshops to 100+ students, increasing attendance by 25%
+</li>
+
+<li>
+  <strong>GAO Tech — Virtual Technology Intern</strong><br />
+  Aug 2021 – Dec 2021<br />
+  • Collaborated with international teams to organize 3+ global virtual conferences with 200+ attendees<br />
+  • Built responsive web pages and technical datasheets using HTML, CSS, and C++
+</li>
       </ul>
     </div>
   );
@@ -212,7 +219,7 @@ function ProjectsWindow() {
 function ResumeWindow() {
   return (
     <div>
-      <h2> <a href="https://docs.google.com/document/d/1Sk0XAkIQY7t1kh-wAv0oSVJAl0PUQyT__11KSaZeUTI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">My Resume</a></h2>
+      <h2> <a href="https://drive.google.com/file/d/1uL_rmbhSNIrb7wXx3orXV1sTdiMUdreo/view?usp=sharing" target="_blank" rel="noopener noreferrer">My Resume</a></h2>
       <p>Click above to download...</p>
     </div>
   );
