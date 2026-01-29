@@ -66,11 +66,11 @@ function App() {
             <img src={icon5} alt="Icon5" />
             <div className="icon-text">About Me</div>
           </div>
-          <div className="icon-wrapper" onClick={() => openWindow('Awards & Certs.', <AwardWindow />)}>
+          <div className="icon-wrapper" onClick={() => openWindow('Publications & Awards', <AwardWindow />)}>
             <img src={icon6} alt="Icon6" />
             <div className="icon-text">Publications/Awards</div>
           </div>
-          <div className="icon-wrapper" onClick={() => openWindow('Languages', <LanguageWindow />)}>
+          <div className="icon-wrapper" onClick={() => openWindow('Skills', <LanguageWindow />)}>
             <img src={icon7} alt="Icon7" />
             <div className="icon-text">Skills</div>
           </div>
@@ -290,7 +290,6 @@ function AboutWindow() {
 function AwardWindow() {
   return (
     <div>
-      <h2>Publications & Awards</h2>
 
       {/* Publications */}
       <h3>Publications</h3>
@@ -385,7 +384,7 @@ function LanguageWindow() {
 
       {Object.entries(skills).map(([category, items]) => (
         <div key={category} className="skills-category">
-          <h3>{category}</h3>
+          <h4>{category}</h4>
           <ul className="skills-list">
             {items.map((skill) => (
               <li key={skill}>{skill}</li>
